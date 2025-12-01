@@ -249,29 +249,40 @@ This project supports **Model Context Protocol (MCP)** enabling tools such as:
 * Scoped file operations
 
 This architecture is ready for integration with real school systems.
+
+---
+
+ ## 🟦 7. Project Structure
 ```
 
-## 🟦 7. Project Structure
+Student-Support-Concierge-Multi-Agent-AI-Platform/
+│
+├── 📄 LICENSE
+├── 📘 README.md
+│
+├── 📂 student_support_adk/
+    │
+    ├── 📁 samples/
+    │   └── 📁 data/
+    │       ├── 📄 student_db.csv
+    │       └── 📄 memory.json
+    │
+    ├── 📁 student_support/
+    │   ├── 🧠 main.py
+    │   ├── 🤖 agents.py
+    │   ├── 🧭 root_agent.py
+    │   ├── 🛠 tools.py
+    │   ├── 📊 evaluation.py
+    │   ├── 💾 memory.py
+    │   ├── ⏳ longrunning.py
+    │   └── 📎 __init__.py
+    │
+    └── 📄 requirements.txt
 
 
-student_support_adk/
-├── student_support/
-│   ├── main.py             # Flask Web Demo + Routing
-│   ├── root_agent.py       # ADK root agent
-│   ├── agents.py           # All sub-agents
-│   ├── memory.py           # Session & Memory store
-│   ├── tools.py            # MCP tools
-│   ├── longrunning.py
-│   ├── evaluation.py
-│   └── __init__.py
-├── samples/data/
-│   ├── memory.json
-│   ├── student_db.csv
-│   └── avatars/
-├── requirements.txt
-└── README.md
 ```
 ---
+
 ## 🟦 8. Installation & Running
 
 1. **Create environment**
@@ -395,9 +406,9 @@ The **Student Support Concierge** is not just a demo — it is a production-read
 * Optional LLM integration
 * Flask web interface
 
- **…this project demonstrates the future of institutional automation.**
-
+ this project demonstrates the future of institutional automation.
  ---
+ 
 <h1 style="font-family: 'poppins'; font-weight: bold; color: Green;">👨‍💻Author: Abbas Raza</h1>
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-blue?style=for-the-badge&logo=github)](https://github.com/abbasraza125-hash) 
